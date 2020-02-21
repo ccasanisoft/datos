@@ -113,5 +113,8 @@ sudo vim /etc/apache2/sites-available/php56.example.com.conf
 sudo a2ensite php56.example.com
 sudo a2ensite php72.example.com
 
+--activar modo ModRewrite
+sudo a2enmod rewrite
+
 -reiniciar apache
 sudo systemctl restart apache2
